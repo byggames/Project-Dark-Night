@@ -1,21 +1,18 @@
-import time
-import os
+import time #Sistema Cooldown
+import os #Sistema de CLS
 
-if os.name == "posix":
+if os.name == "posix": #Sistema de CLS
    var = "clear"        
 elif os.name == "ce" or os.name == "nt" or os.name == "dos":
    var = "cls"
 
-inventario=[] #Inventario del Usuario
 list1=[]    #Respuesta en Menú
-list2=[]
-list3=[]
-list4=[]
+os.system(var)
 print('Bienvenido al juego')
 print()
-print('\t--------------------------------------------')
+print('\t<-------------------------------------------->')
 print('\t\tEscoga una opción por favor.')
-print('\t--------------------------------------------')
+print('\t<-------------------------------------------->')
 print('\n\t1.) Iniciar Juego\n\t2.) Ayuda\n\t3.) Créditos\n\t4.) Salir')
 list1=int(input())
 if list1==1:
@@ -29,11 +26,25 @@ if list1==1:
     import index
 elif list1==2:
     print('Cargando menú de ayuda')
+    print('No hay, recargando juego...')
+    time.sleep(3)
+    os.system(var)
+    import menu
+
 elif list1==3:
-    print('Ayudado xD troleao lmao')
+    print('En desarrollo... No disponible, redirigiendo al menú...')
+    time.sleep(3)
+    os.system(var)
+    import menu
+    
 elif list1==4:
+    os.system(var)
     exit()
 
-#en caso de error
+#en caso de error, se vuelve a ejecutar el menú
 else:
-    print('A ocurrido algún error porfavor vuelva a ejecutar nuevamente el código.')
+    os.system(var)
+    print('A ocurrido algún error, recargando juego. Por favor espere')
+    time.sleep(4)
+    os.system(var)
+    import menu
