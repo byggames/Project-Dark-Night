@@ -127,7 +127,8 @@ elif list1==2: #Llamar a emergencias e informar de la situación
     if list3==1: #Investigar mensaje de las voces y de quienes son
         print('')
     elif list3==2: #Tomarse un paracetamol y ehcarse una siesta.
-        print('')
+        os.system(var)
+        print('Te tomas un paracetamol y tratas de hecharte una siesta')
 elif list1==3: #Seguir durmiendo SEGUIR DESARROLLANDO IDEA MARTA
     os.system(var)
     print('Sientes la alarma del teléfono, la pospones para una hora más tarde.')
