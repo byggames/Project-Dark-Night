@@ -1,6 +1,9 @@
 import time #Sistema Cooldown
 import os #Sistema de CLS
 
+def func():
+    import index
+
 if os.name == "posix": #Sistema de CLS
    var = "clear"        
 elif os.name == "ce" or os.name == "nt" or os.name == "dos":
@@ -23,7 +26,7 @@ if list1==1:
     print('Pulse unicamente los números que se indiquén en pantalla y enter. No pulse ninguna tecla para no tener problemas con su experiencia.')
     time.sleep(15)
     os.system(var)
-    import index
+    func()
 elif list1==2:
     print('Cargando menú de ayuda')
     print('No hay, recargando juego...')
