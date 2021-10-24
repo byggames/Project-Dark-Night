@@ -10,8 +10,9 @@ elif os.name == "ce" or os.name == "nt" or os.name == "dos":
 list1 = [] #Que vas a hacer linea 34
 list2 = [] #Que vas a hacer linea 73
 list3 = [] #Que vas a hacer linea 118
-list4 = [] #Que vas a hacer linea 
-list5 =  [] #Que vas a hacer linea 
+list4 = [] #Que vas a hacer linea 155
+list5 =  [] #Que vas a hacer linea 210
+list6 = [] #Que vas a hacer linea 
 
 print('Te despiertas, estas en tu habitación dormido, está sonando la alarma del teléfono. Ves que son las 6:00 AM.')
 print()
@@ -201,7 +202,7 @@ elif list1==3: #Seguir durmiendo SEGUIR DESARROLLANDO IDEA MARTA
         print('Chico - Los policias revisaron los alrededores y me encontraron en el sotano, el que lo voló me llevo hacia el sotano y puso mis huellas en la palanca que detonó la bomba, al tener las huellas no decidieron buscar más cosas y decidieron arrestarme.')
         print()
         time.sleep(9)
-        print('Chico - Necesito que vayas allí y los recogas para demostrar mi inocencia ya que el que lo provocó sigue libre y podrá hacer algo más grave... ¿Me puede ayudarme?')
+        print('Chico - Necesito que vayas allí y los recogas para demostrar mi inocencia ya que el que lo provocó sigue libre y podrá hacer algo más grave... ¿Me puede ayudarme?, te voy a enviarte por correo todo lo que hemos hablado te lo estaré enviando por correo, ya hablamos.')
         print()
         time.sleep(8)
         print('Decide lo que vas a hacer')
@@ -218,7 +219,14 @@ elif list1==3: #Seguir durmiendo SEGUIR DESARROLLANDO IDEA MARTA
             print('(no es que sea buena idea acercarse, seguramente habrá policias cerca y demasiada radiación, ¿como haré para salvarle?, me acercaré al sitio haber que encuentro, voy a por protección e ire a la carga.)')
             time.sleep(5)
             print()
-            print('Te diriges hacia ')
+            print('Empiezas a conducir sin ningún rumbo en mente, debido a la alta radiación no puedes estar a 50Km alrededor de la central nuclear.')
+            print('Decide lo que vas a hacer: 1.- Investigar en tu casa el correo que te habia mandado el chico. 2.- Ser ilegal y acercarte al perímetro de seguridad para ver que ocurre')
+            list6=int(input())
+            if list6==1:
+                print('')
+        elif list5==2:
+            os.system(var)
+            print()
 
     elif list4==2: #Piensas que es tu subconsiente
         os.system(var)
