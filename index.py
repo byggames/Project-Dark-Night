@@ -64,7 +64,7 @@ if list1==1: #Avisar a todos tus familiares
     print('El acusado se declara inocente, aunque no hay ninguna prueba que lo respalde.')
     print()
     time.sleep(10)
-    print('Empiezas a escuchar vozes fuertemente en tu mente, la voz te suena de haberlo oido en alguna parte, era el prisionero.')
+    print('Empiezas a escuchar voces fuertemente en tu mente, la voz te suena de haberlo oido en alguna parte, era el prisionero.')
     print()
     time.sleep(5)
     print('No para de decirte que el es inocente y que estaba en otra parte, pero las pruebas que lo respaldan no están donde los policias habian buscado')
@@ -210,8 +210,15 @@ elif list1==3: #Seguir durmiendo SEGUIR DESARROLLANDO IDEA MARTA
         list5=int(input())
         if list5==1:
             os.system(var)
+            print('Te diriges al coche, te pones a pensar si es buena idea...')
+            time.sleep(5)
             print()
-            time.sleep(4)
+            print('(Creo que no es un buen plan...) (Y si es una enredada) (Y si  es verdad... Hay madre que voy a hacer...)')
+            time.sleep(3)
+            print('(no es que sea buena idea acercarse, seguramente habrá policias cerca y demasiada radiación, ¿como haré para salvarle?, me acercaré al sitio haber que encuentro, voy a por protección e ire a la carga.)')
+            time.sleep(5)
+            print()
+            print('Te diriges hacia ')
 
     elif list4==2: #Piensas que es tu subconsiente
         os.system(var)
