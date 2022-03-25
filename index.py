@@ -12,7 +12,7 @@ list2 = [] #Que vas a hacer linea 73
 list3 = [] #Que vas a hacer linea 118
 list4 = [] #Que vas a hacer linea 155
 list5 =  [] #Que vas a hacer linea 210
-list6 = [] #Que vas a hacer linea 
+list6 = [] #Que vas a hacer linea 225
 
 print('Te despiertas, estas en tu habitación dormido, está sonando la alarma del teléfono. Ves que son las 6:00 AM.')
 print()
@@ -202,7 +202,7 @@ elif list1==3: #Seguir durmiendo SEGUIR DESARROLLANDO IDEA MARTA
         print('Chico - Los policias revisaron los alrededores y me encontraron en el sotano, el que lo voló me llevo hacia el sotano y puso mis huellas en la palanca que detonó la bomba, al tener las huellas no decidieron buscar más cosas y decidieron arrestarme.')
         print()
         time.sleep(9)
-        print('Chico - Necesito que vayas allí y los recogas para demostrar mi inocencia ya que el que lo provocó sigue libre y podrá hacer algo más grave... ¿Me puede ayudarme?, te voy a enviarte por correo todo lo que hemos hablado te lo estaré enviando por correo, ya hablamos.')
+        print('Chico - Necesito que vayas allí y los recogas para demostrar mi inocencia ya que el que lo provocó sigue libre y podrá hacer algo más grave... ¿Me puede ayudarme?, no soy el culpable de todo este caos, por favor ayudame.')
         print()
         time.sleep(8)
         print('Decide lo que vas a hacer')
@@ -214,7 +214,7 @@ elif list1==3: #Seguir durmiendo SEGUIR DESARROLLANDO IDEA MARTA
             print('Te diriges al coche, te pones a pensar si es buena idea...')
             time.sleep(5)
             print()
-            print('(Creo que no es un buen plan...) (Y si es una enredada) (Y si  es verdad... Hay madre que voy a hacer...)')
+            print('(Creo que no es un buen plan...) (Y si es una enredada) (Y si  es verdad... Hay madre, que voy a hacer...)')
             time.sleep(3)
             print('(no es que sea buena idea acercarse, seguramente habrá policias cerca y demasiada radiación, ¿como haré para salvarle?, me acercaré al sitio haber que encuentro, voy a por protección e ire a la carga.)')
             time.sleep(5)
@@ -226,6 +226,9 @@ elif list1==3: #Seguir durmiendo SEGUIR DESARROLLANDO IDEA MARTA
                 print('')
         elif list5==2:
             os.system(var)
+            print('Coges tu movil y te dirijes a la aplicación de Mapas, las red va algo lenta y tarda mucho en cargar, pero logras acceder, la app te avisa de que hay un perimetro establecido de seguridad, te dice la zona que hay menos radiación entre otras cosas, avisa de que si detecta de que alguien pasa los 50 kilometros del perimetro de seguridad se avisará automaticamente a la policia ')
+            time.sleep(10)
+            print
             print()
 
     elif list4==2: #Piensas que es tu subconsiente
